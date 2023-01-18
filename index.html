@@ -1,69 +1,81 @@
 <!-- Markup the content below with tags and attributes such that it can be styled in CSS-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <!-- link to my fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 <!-- Link your CSS stylesheet -->
-<link rel="stylesheet" href="index.css">
-    
+<link rel="stylesheet" href="index.css">  
 </head>
+
+
 <body>
       <header>
         <nav>
-          <div> 
-            <a href="#plan">Plan Your Visit</a> 
-            <a href="#learn">Learn about the Park </a> 
-            <a href="#involed">Get Involved</a> 
-          </div>
+          <a href="#orange" class="plan">Plan Your <br> Visit</a>
+          <a href="" class="#blue">Learn about <br> the Park </a>
+          <a href="" class="#yellow">Get <br> Involved</a>
         </nav>
 
       </header>
 
-      <section>
+
+
+      <section class="title_section">
         <div>
-          <!-- "header_img.jpg" -->
-          <img src="assets/header_img.jpg" alt="header_img">
-  
-      
-  
-          <h1>Yosemite Park Guide </h1>
-          <h2>Come explore California’s beautiful wilderness. </h2>
-          <h2>Always open. Reservations are not available or required to enter the park. </h2>
+          <div class="image">
+            <!-- "header_img.jpg" -->
+            <img src="assets/header_img.jpg" alt="header_img" class="round">
+          </div>
+          
+         <div class="text_container">
+            <h1>Yosemite Park Guide </h1>
+            <h2>Come explore California’s beautiful wilderness. </h2>
+            <p>Always open. Reservations are not available or required to enter the park. </p>
+          </div>
         </div>
       </section>
 
-      <section>
-        <div>
-          Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.
+      <section class="block_text_section">
+        <div class="beige_section">
+          <p> just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.</p>
           
-          First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
+          <p> protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
         </div>
       </section>
       
-      <section>
-        <div>
+      <section class="main_body">
+        <div class="campfire">
           <!-- "campfire.png" -->
-          <img src="assets/campfire.png" alt="campfire">
+          <img src="assets/campfire.png" alt="campfire illustration">
+          <p>          Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for <span class="blold">current fire restrictions</span>.</p>
+        </div>
 
-          Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.
-          
+        <div class="camper">
           <!-- "camper.png" -->
           <img src="assets/camper.png" alt="camper">
-          We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).
+         <p> We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <span class="blold">park entrance fee </span> upon arrival (there's no need to pay it in advance).</p>
 
+        </div>
+      </section>
+
+      <section class="background_img">
+        <!-- this image will go into CSS -->
+        <div>
+           <!-- "footer_img.png" -->
+        <img src="assets/footer_img.jpg" alt="footer_img">
         </div>
       </section>
 
    
       <footer>
-        
-        <!-- "footer_img.png" -->
-        <img src="assets/footer_img.jpg" alt="footer_img">
-      
+
         <nav>
           <div> 
-            <a href="#plan">Plan Your Visit</a> 
-            <a href="#learn">Learn about the Park </a> 
-            <a href="#involed">Get Involved</a> 
+            <a href="#orange" class="plan">Plan Your <br> Visit</a>
+            <a href="" class="#blue">Learn about <br> the Park </a>
+            <a href="" class="#yellow">Get <br> Involved</a>
           </div>
         </nav>
       </footer>
